@@ -1,0 +1,52 @@
+# Core web framework
+flask==2.3.3
+flask-cors==4.0.0
+
+# HTTP requests and web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+urllib3==2.0.4
+
+# DNS and network tools
+dnspython==2.4.2
+python-whois==0.8.0
+
+# Security scanning tools
+python-nmap==0.7.1
+paramiko==3.3.1
+
+# SQL injection testing
+sqlparse==0.4.4
+
+# XML parsing for XXE testing
+lxml==4.9.3
+
+# SSL/TLS analysis
+pyOpenSSL==23.2.0
+cryptography==41.0.4
+
+# Async support
+aiohttp
+asyncio-throttle==1.0.2
+
+# Data processing
+pandas
+numpy
+
+# Logging and utilities
+colorama==0.4.6
+tqdm==4.66.1
+
+# WordPress specific
+python-wordpress-xmlrpc==2.3
+
+# Exploitation frameworks integration
+pexpect==4.8.0
+
+# Report generation
+jinja2==3.1.2
+markdown==3.4.4
+
+# Google Gemini AI integration
+google-generativeai==0.3.2
+python-dotenv
