@@ -16,7 +16,7 @@ from datetime import datetime
 logger = logging.getLogger(__name__)
 
 class AISecurityAnalyzer:
-    def __init__(self, api_key: str = "AIzaSyCeuC-ApUQJZNOv8ru8xZ2rViOx2ROITC8"):
+    def __init__(self, api_key: str = "API_KEY"):
         """Initialize the AI analyzer with Gemini API key"""
         self.api_key = api_key
         genai.configure(api_key=api_key)
